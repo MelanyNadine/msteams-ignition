@@ -1,0 +1,11 @@
+{
+    "projectPath": ":common",
+    "projectName": "common",
+    "scope": "CDG",
+    "artifacts": [
+        {
+            "id": "msteams:common:0.0.1-SNAPSHOT",
+            "jarName": "common-0.0.1-SNAPSHOT.jar"
+        }
+    ]
+}

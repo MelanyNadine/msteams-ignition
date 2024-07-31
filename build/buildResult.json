@@ -1,0 +1,59 @@
+{
+    "moduleId": "com.inductiveautomation.ignition.msteams.Msteams",
+    "moduleName": "msteams",
+    "moduleDescription": "A short sentence describing what it does, but not much longer than this.",
+    "version": "0.0.1-SNAPSHOT",
+    "checksum": {
+        "checksum": "ac59ed28f704032a3f614de5bf12555126dcff5d20060daf4df00d1a7cb27d64",
+        "algorithm": "SHA256"
+    },
+    "fileName": "msteams.unsigned.modl",
+    "fileSize": 9071,
+    "artifacts": {
+        ":client": {
+            "projectPath": ":client",
+            "projectName": "client",
+            "scope": "CD",
+            "artifacts": [
+                {
+                    "id": "msteams:client:0.0.1-SNAPSHOT",
+                    "jarName": "client-0.0.1-SNAPSHOT.jar"
+                }
+            ]
+        },
+        ":common": {
+            "projectPath": ":common",
+            "projectName": "common",
+            "scope": "CDG",
+            "artifacts": [
+                {
+                    "id": "msteams:common:0.0.1-SNAPSHOT",
+                    "jarName": "common-0.0.1-SNAPSHOT.jar"
+                }
+            ]
+        },
+        ":designer": {
+            "projectPath": ":designer",
+            "projectName": "designer",
+            "scope": "D",
+            "artifacts": [
+                {
+                    "id": "msteams:designer:0.0.1-SNAPSHOT",
+                    "jarName": "designer-0.0.1-SNAPSHOT.jar"
+                }
+            ]
+        },
+        ":gateway": {
+            "projectPath": ":gateway",
+            "projectName": "gateway",
+            "scope": "G",
+            "artifacts": [
+                {
+                    "id": "msteams:gateway:0.0.1-SNAPSHOT",
+                    "jarName": "gateway-0.0.1-SNAPSHOT.jar"
+                }
+            ]
+        }
+    },
+    "metaInfo": {}
+}

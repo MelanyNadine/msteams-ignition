@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+	<module>
+		<name>msteams</name>
+		<id>com.inductiveautomation.ignition.msteams.Msteams</id>
+		<version>0.0.1-SNAPSHOT</version>
+		<description>A short sentence describing what it does, but not much longer than this.</description>
+		<requiredIgnitionVersion>8.1.11</requiredIgnitionVersion>
+		<freeModule>false</freeModule>
+		<hook scope="G">com.inductiveautomation.ignition.msteams.gateway.MsteamsGatewayHook</hook>
+		<hook scope="C">com.inductiveautomation.ignition.msteams.client.MsteamsClientHook</hook>
+		<hook scope="D">com.inductiveautomation.ignition.msteams.designer.MsteamsDesignerHook</hook>
+		<requiredFrameworkVersion>8</requiredFrameworkVersion>
+		<jar scope="CD">client-0.0.1-SNAPSHOT.jar</jar>
+		<jar scope="CDG">common-0.0.1-SNAPSHOT.jar</jar>
+		<jar scope="D">designer-0.0.1-SNAPSHOT.jar</jar>
+		<jar scope="G">gateway-0.0.1-SNAPSHOT.jar</jar>
+	</module>
+</modules>

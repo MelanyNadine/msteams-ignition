@@ -1,0 +1,11 @@
+{
+    "projectPath": ":client",
+    "projectName": "client",
+    "scope": "CD",
+    "artifacts": [
+        {
+            "id": "msteams:client:0.0.1-SNAPSHOT",
+            "jarName": "client-0.0.1-SNAPSHOT.jar"
+        }
+    ]
+}
